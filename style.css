@@ -1,0 +1,109 @@
+/* Define styles for the login form */
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-form form {
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Define styles for the authentication form */
+.auth-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-form form {
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .auth-form label {
+    display: block;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .auth-form input[type="text"],
+  .auth-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+/* Define styles for the input form */
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.inputValue {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Define styles for the display section */
+.display {
+  text-align: center;
+}
+
+.city {
+  font-size: 36px;
+  color: #333;
+}
+
+.temp {
+  font-size: 24px;
+  color: #555;
+}
+
+.desc {
+  font-size: 18px;
+  color: #777;
+}
