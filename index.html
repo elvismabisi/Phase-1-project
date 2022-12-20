@@ -50,6 +50,28 @@
       <input type="text" placeholder="Search city" class="inputValue">
       <input type="submit" value="Submit" class="button">
   </div>
+  <div class="display">
+    <h1 class="city"></h1>
+    <p class="temp"></p> 
+    <p class="desc"></p>
+</div>
+<form id="process-feedback.php">
+  <h2>Leave us your feedback</h2>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" name="name" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+      <input type="email" name="email" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="feedback">Feedback:</label>
+      <textarea name="feedback" class="form-control" rows="5" required></textarea>
+    </div>
+    <input type="submit" value="Submit Feedback" class="btn">
+  </form>
+  
 
 </body>
 </html>
