@@ -242,3 +242,15 @@ a {
 .footer-section a:hover {
     color: blue;
 }
+.footer-item {
+    margin: 1rem;
+}
+
+.footer-item ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer-item li {
+    margin-right: 1rem;
+}
