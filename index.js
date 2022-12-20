@@ -53,3 +53,13 @@ button.addEventListener('click', function() {
         iconEl.alt = data.weather[0].description;
         document.querySelector('.display').appendChild(iconEl);
       })
+})
+ // Handle feedback form submission
+ const feedbackForm = document.querySelector('#feedbackForm');
+ feedbackForm.addEventListener('submit', function(e) {
+   e.preventDefault();
+   // Get the form data
+   const name = feedbackForm.querySelector('input[name="name"]').value;
+   const email = feedbackForm.querySelector('input[name="email"]').value;
+   const feedback = feedbackForm.querySelector('textarea[name="feedback"]').value;
+ })  
