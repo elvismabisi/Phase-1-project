@@ -35,3 +35,21 @@ button.addEventListener('click', function() {
       }
       return response.json();
     })
+    .then(function(data) {
+        console.log(data);
+        // Convert temperature to Celsius
+        const tempCelsius = data.main.temp - 273.15;
+        // Display weather data on the page
+        const cityEl = document.querySelector('.city');
+        cityEl.innerText = data.name;
+        const tempEl = document.querySelector('.temp');
+        tempEl.innerText = `Temperature: ${tempCelsius.toFixed(1)}°C`;
+        const descEl = document.querySelector('.desc');
+        descEl.innerText = data.weather[0].description;
+        // Display weather icon
+        const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+        const iconEl = document.createElement('img');
+        iconEl.src = iconUrl;
+        iconEl.alt = data.weather[0].description;
+        document.querySelector('.display').appendChild(iconEl);
+      })
