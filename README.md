@@ -11,7 +11,7 @@ When a user enters a certain input
 2. See the temperature value in Degrees Celsius,
 3. See the weather description e.g cloudy, clear sky, sunny, windy, etc.,
 4. See the city and country e.g Nairobi Kenya,
-5. Convert the temperature from Celsius to Farenheit when I click on the temperature icon.
+
 
 # Project Requirements
 1. HTML
