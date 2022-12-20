@@ -150,3 +150,18 @@ ul li a:hover::before {
     color: #555;
     font-size: 18px;
   }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form h2 {
+    margin-top: 0;
+  }
+  
+  form .form-group {
+    margin-bottom: 20px;
+  }
