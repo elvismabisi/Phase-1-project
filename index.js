@@ -21,3 +21,17 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 })
+// Fetch weather data from OpenWeatherMap API
+const input = document.querySelector('.inputValue');
+const button = document.querySelector('.button');
+button.addEventListener('click', function() {
+  const city = input.value;
+  const apiKey = 'f8bb770c3c3f41f518d1d8ff65a1a3b5';
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+  fetch(apiUrl)
+    .then(function(response) {
+      if (!response.ok) {
+        throw Error(response.statusText);
+      }
+      return response.json();
+    })
