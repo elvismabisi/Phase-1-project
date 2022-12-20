@@ -4,7 +4,7 @@
 This is a web application that displays the weather of a certain area as well as 
 the temperature depending on the user's input
 
-# MVP / description
+# MVP
 When a user enters a certain input
 
 1. See the current weather status,
