@@ -1,109 +1,27 @@
-/* Define styles for the login form */
-.login-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
   }
-  
-  .login-form form {
-    width: 50%;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    padding: 20px;
-  }
-  
-  .login-form label {
-    display: block;
-    font-size: 18px;
-    color: #444;
-  }
-  
-  .login-form input[type="text"],
-  .login-form input[type="password"] {
+  .navbar {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  /* Define styles for the authentication form */
-.auth-form {
+    padding: 3rem 0;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-  }
-  
-  .auth-form form {
-    width: 50%;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    padding: 20px;
-  }
-  
-  .auth-form label {
-    display: block;
-    font-size: 18px;
-    color: #444;
-  }
-  
-  .auth-form input[type="text"],
-  .auth-form input[type="password"] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-  }
-
-/* Define styles for the input form */
-.input {
-  display: flex;
-  align-items: center;
+    height: 4rem;
+    background: rgb(26, 25, 25);
 }
 
-.inputValue {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+.navbar h2 {
+    color: white;
 }
 
-.button {
-  width: 20%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+ul {
+    display: flex;
 }
 
-.button:hover {
-  background-color: #45a049;
-}
-
-/* Define styles for the display section */
-.display {
-  text-align: center;
-}
-
-.city {
-  font-size: 36px;
-  color: #333;
-}
-
-.temp {
-  font-size: 24px;
-  color: #555;
-}
-
-.desc {
-  font-size: 18px;
-  color: #777;
+li {
+    list-style: none;
 }
